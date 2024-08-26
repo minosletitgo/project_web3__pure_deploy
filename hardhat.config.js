@@ -17,7 +17,7 @@ module.exports = {
       loggingEnabled: true, // 启用日志记录
     },    
     testSepolia: {
-      url: "https://eth-sepolia.g.alchemy.com/v2/u_NptynwrwopejMYBwQ5ZVxHrNsoAigq", // 替换为你的节点提供商url
+      url: "https://eth-sepolia.g.alchemy.com/v2/8SAuwFunrpfVphXYDobRKqmLmv6w4i7w", // 替换为你的节点提供商url
       accounts: [process.env.PRIVATE_KEY_testSepolia], // 使用你在该节点链上的账户(该账户拥有足够的支付手续费额度)私钥
     }
   }  

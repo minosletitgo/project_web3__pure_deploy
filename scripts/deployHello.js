@@ -4,8 +4,13 @@ async function main() {
     const [deployer] = await ethers.getSigners();
     console.log("Deploying contracts with the account:", deployer.address);
 
-    const Hello = await ethers.getContractFactory("Hello");
-    const hello = await Hello.deploy();
+    // 常规部署，如果连接外网，可能不稳定
+    // const Hello = await ethers.getContractFactory("Hello");
+    // const hello = await Hello.deploy();
+
+    // 简约部署，相对稳定
+    const hello = await ethers.deployContract("Hello");
+    await hello.waitForDeployment();
     
     console.log("Begin...");
     console.log(await hello.print1());
