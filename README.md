@@ -50,3 +50,8 @@ npx hardhat run .\scripts\deployHello.js --network localHardhat
 
 --启动且使用第三方软件Ganache搭建开发节点(会生成若干个账户)：
 npx hardhat run .\scripts\deployHello.js --network localGanache
+
+
+
+
+本工程为Ethers6，很多语法不一致，甚至是支持问题，暂时废弃。
