@@ -55,3 +55,6 @@ npx hardhat run .\scripts\deployHello.js --network localGanache
 
 
 本工程为Ethers6，很多语法不一致，甚至是支持问题，暂时废弃。
+本工程为Ethers6，很多语法不一致，甚至是支持问题，暂时废弃。
+本工程为Ethers6，很多语法不一致，甚至是支持问题，暂时废弃。
+本工程为Ethers6，很多语法不一致，甚至是支持问题，暂时废弃。
